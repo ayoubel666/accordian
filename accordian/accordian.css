@@ -1,0 +1,28 @@
+.container{
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container > div{
+    background-color: rgb(94, 53, 0);
+    cursor: pointer;
+}
+.itemEle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.head{
+    display: inline-block;
+    margin: auto;
+    width: fit-content;
+    padding: 0 20px !important;
+}
+.gold{
+    color: gold;
+}
